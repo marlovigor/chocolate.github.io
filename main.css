@@ -1,41 +1,44 @@
 
 
 body{
-    background-color: #3d1c0f
+    margin: 0px;
+    background-color: #ffffff
 }
 
-@media all and (max-width: 480px)  {
-    body{
-      
-   
-   background-color: rgb(255, 255, 255);
-   } 
-   
+@media all and (max-width: 480px) {
+    /* body{
+        background-color: #3d1c0f
+   } */
 
 
    .ban1{
-   background-image: url("assets/img/HeadlineImage_1.jpg");
-   position: absolute;
-   background-size: cover;
-   background-repeat: no-repeat;
-   width: 100%;
-   height: 200px;
-   left:0px;
-   top: 0px;
-   
-   }
+    background-image: url("assets/img/HeadlineImage_1.jpg");
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 20rem;
+    
+    top: 15px;
+    
+    }
 
+
+ 
    h1{
+    position: relative;
+    margin: 0 auto;
     font-size: 1.1rem;
     font-family: bold;
     color: aliceblue;
     text-align: center;
-    padding-top: 12px;
+    font-weight: bolder;
+    padding-top: 18px;
 
 
    }
 
-   #redh1{
+   .p1{
        color: red;
        text-align: center;
        max-width: 100%;
@@ -45,9 +48,9 @@ body{
        border-radius: 3px;
    }
 
-   #p2{
+   .p2{
        color: aliceblue;
-       font-size: 0.9rem;
+       font-size: 01.3rem;
        max-width: 95%;
       text-align:  center;
       padding-left:12px; 
@@ -55,111 +58,111 @@ body{
       }
 
       h2{
+          color:rgb(7, 3, 3);
           position: relative;
-          top: 220px;
-          font-size: 0.02rem;
+          left:30px;
+          top: 20px;
+          width:75%;
+          text-align: left;
+          font-size: 0.9rem;
           max-width: 90%;
-          padding-left: 25px;
-      }
-
-      .desserts{
-          position: relative;
-          background: rgb(131,61,16);
-background: linear-gradient(90deg, rgba(131,61,16,0.4472163865546218) 0%, rgba(214,134,44,0.9710259103641457) 45%, rgba(204,174,26,0.23993347338935578) 100%);
-        top: 220px;
-        height: 150px;
-      }
+          padding-top:10px;
+         } 
 
 
-    ul{
+
+        /* .desserts{
+          top: 30px;
+          height: 400px;
+          width:100%;
+      } */
+
+
+      .item{
         position: relative;
-        top: 10px;
-        height: 150px;
-        max-width: 100%;
-        list-style-type: none;
-        padding:0;
+        margin: 0 auto;
        
-
+      width:80%px;
+      text-align:center;
+      display:block;
+      margin: 11%;
+      /* float:left; */
+   
     }
+    
+    #index-gallery{
+        position: relative;
+        top:20px;
+        
+        background: linear-gradient(90deg, rgba(131,61,16,0.4472163865546218) 0%, rgba(214,134,44,0.9710259103641457) 45%, rgba(204,174,26,0.23993347338935578) 100%);
+    
+      width:100%;
+      height: 1300px;
+      /* border: 5px solid red; */
+    }
+    
+    .innerdiv{
+        position: relative;
+        margin: 0 auto;
+        width: 90%;
+        height: 300px;
       
-   
-   .tasty{
-       width: 25%;
-       margin: 15px;
-       float: left;
+    
+    }
+    
+    .imgitem{
+        position: relative;
+        width:280px;
+    }
+     .item, p{
+         text-align: center;
+         font-size: 2em;
+     }
+    /*  */
 
-       
-       
-       
-   }
-   .pictags{
-       
-    position: relative;
-    top: -60px;
-    left: 20px;
-    font-size: 0.8rem;
-    height: 150px;
-    max-width: 100%;
-    list-style-type: none;
-    padding:0;
-   
 
-   }
-
-   #tag{
-      font-family: bold;
-    color: rgb(65, 26, 1);
-    width: 25%;
-    margin: 15px;
-    float: left;
-   }
-
-   #p1{
-       
-       color: rgb(0, 0, 0);
-       position: relative;
-       top: 170px;
-       max-width: 80%;
-       height: 20px;
-       font-family: bold;
-       font-size: 0.75rem;
-       left: 25px;
-       text-align: left;
-       margin: 0;
-       
-       
-   }
    #p23{
        
     color: rgb(0, 0, 0);
     position: relative;
-    top: 250px;
     text-align: left;
     max-width: 80% ;
     height: 20px;
     font-family: bold;
+    top: 50px;
     font-size: 0.75rem;
     left: 25px;
     margin: 0;
    }
 
-
-   p span{
-       padding-top: 15px;
-       display: block;
+    #p23 span{
+       margin:400px;
    }
-   
    #enz{
-       position: relative;
-       top: 340px;
-       color: rgb(1, 2, 2);
-       font-size: 0.1rem;
-       margin: 15px;
-       left: 25px;
-   }
-   #enz li:before {
-    content: '✓';
+       list-style-type: none; 
+    position: relative;
+    top: 100px;
+    color: rgb(1, 2, 2);
+    font-size: 0.6rem;
+    margin: 15px;
+    left: -25px;
+}
+  #p24{
+
+    position: relative;
+    top:100px;
+    font-size: 0.75rem;
+    max-width: 80% ;
+    left:20px;
   }
+
+
+   
+   
+   #enz li:before {
+    content: '✓ ';
+  }
+  
   #p4{
     color: rgb(0, 0, 0);
     position: relative;
@@ -171,73 +174,96 @@ background: linear-gradient(90deg, rgba(131,61,16,0.4472163865546218) 0%, rgba(2
     font-size: 0.75rem;
     left: 25px;
     margin: 0;
-  }
-
+  }  
 
   .paralax{
-      position: relative;
-      top: 255px;
-      background-image: url("assets/img/ParallaxOne_5.jpg");
-      background-size:cover;
-      height: 120px;
-      
-  }
+ 
+    position: relative;
+    top: 100px;
+    background-image: url("assets/img/ParallaxOne_5.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width:100%;
+    height: 200px;
+    /* border: 5px solid red; */
+  
+  
+}
+
+
+
+ 
   h3{
       position: relative;
+      height: 120px;
+      font-weight: bolder;
       font-family: bold;
-      color: white;
-      font-size: 0.65rem;
+      color: rgb(226, 226, 226);
+      font-size: 1.7rem;
       text-align: left;
       padding-left: 8px;
       top: 30px;
 
   }
   h3 span{
+    /* border: 5px solid red; */
       font-family: sans-serif;
-    padding-top: 10px;
-    display: block;
-    font-size: 0.07rem;
+    padding-top: 20px;
+    color: rgb(226, 226, 226);
+    font-size: 0.9rem;
 }
+ 
 .bar {
+    /* border: 5px solid red; */
     position: relative;
     background-color: #3d1c0f;
-    top: 280px;
-    padding-right: 60px;
-    width: 90%;
-    height: 110px;
+    top: 120px;
+    width: 100%;
+    height: 250px;
 }
-h4{
+h4
+{ 
+    
+    position: relative;
+    top:-5px;
+    width:80%;
+    left:5px;
+    margin: 0 auto;
     color: rgb(255, 255, 255);
-    padding-top: 5px;
-    font-size: 0.001rem;
-    padding-left: 10px;
-    width:55%;
-    float: right;
+    font-size: 1.09rem;
+    text-align: center;
+    /* border: 5px solid red; */
+    width:80%;
+    
     
     
 
 }
 h4 span{
-    padding-top: 10px;
+    padding-top: 30px;
     display: block;
 
 }
 
 #docimg {
-   top: 200px;
-    width: 45%;
+
+     visibility: hidden;
+    height: 1px;
+    /* border: 5px solid red; */
     
-    padding: 0px;
+    
 }
+
+
 .skep{
     position: relative;
-    top: 300px;
+    top: 150px;
 
 }
 
 #br{
     text-align: left;
-    font-size: 0.3rem;
+    font-size: 0.8rem;
     margin: 0 auto;
     width: 75%;
     padding-bottom: 5px;
@@ -246,7 +272,7 @@ h4 span{
 
 #rd{
     text-align: left;
-    font-size: 0.3rem;
+    font-size: 0.8rem;
     margin: 0 auto;
     width: 75%;
     padding-bottom: 5px;
@@ -256,8 +282,8 @@ h4 span{
 .gears{
     background-image: url("assets/img/Gears_15.jpg");
     position: relative;
-    top: 310px;
-    height: 230px;
+    top: 180px;
+    width: 100%;
     background-size:cover;
 
 
@@ -268,7 +294,7 @@ h4 span{
     text-align: left;
     color: yellow;
     margin: 0 auto;
-    font-size: 0.5rem;
+    font-size: 0.9rem;
     width:66%;
 
 
@@ -278,7 +304,7 @@ h4 span{
 
 #yell span {
     color: aliceblue;
-    font-size: 0.1rem;
+    font-size: 0.8rem;
     margin: 0 auto;
     padding-top: 5px;
     padding-bottom: 2px;
@@ -286,7 +312,7 @@ h4 span{
 
 #secp{
     color: aliceblue;
-    font-size: 0.1rem;
+    font-size: 0.8rem;
     margin: 0 auto;
     padding-top: 5px;
     padding-bottom: 2px;
@@ -298,7 +324,7 @@ h4 span{
 
 #threep {
     color: aliceblue;
-    font-size: 0.01rem;
+    font-size: 0.5rem;
     margin: 0 auto;
     padding-top: 5px;
     padding-bottom: 2px;
@@ -311,7 +337,7 @@ h4 span{
 .findiv{
    
     position: relative;
-    top:320px;
+    top:200px;
     margin: 0 auto;
 }
 #gatee{
@@ -322,22 +348,26 @@ h4 span{
 }
 
 .lastcontainer1{
-    width: 75%;
+    width: 95%;
     height: 100%;
     margin: 0 auto;
     
    
 }
+.lastdivimg{
+    background-image: -moz-linear-gradient(top, rgb(255, 255, 255) 0%, rgba(246, 246, 246, 0.822) 86%, rgba(237, 237, 237, 0.185) 100%),url("assets/img/TransparentArrowBkgd.jpg");
+    background-size: cover;
+    height: 2400px;
+    background-repeat: no-repeat;
+  
+}
 .lastcontainer2{
     width: 90%;
     height: 100%;
     margin: 0 auto;
-    background-color: rgba(248, 248, 248, 0.521);
+    background-color: rgba(255, 255, 255, 0.356);
 }
-.gln{
-    width: 66%;
-  
-}
+
 
 .fin{
     position: relative;
@@ -355,41 +385,54 @@ h4 span{
     position: relative;
     width: 66%;
     top: 264px;
-    background-color: rgba(248, 248, 248, 0.541);
-
-
+    background-color: rgba(248, 248, 248, 0.808);
     margin: 0 auto;
 }
 
 .arrow{
     position: relative;
-    top:248px;
-    margin: 0 auto;
+    top:100px;
+    height: 100px;
+    width:100%;
+    
+    /* margin: 0 auto;
     width: 100%;
     left: 68px;
-    opacity: 0.5;
+    opacity: 0.5; */
 
 
 }
-.buttonfin{
+#arrowimg{
+   
+    height: 100px;
+    width: 100%;
+
+}
+ p{
+     font-size: 0.7em
+ }
+
+ .buttonfin{
+
 position: relative;
-top: 300px;
-border-style: solid;
-  border-color: red;
+display: flex;
+  justify-content: center;
+top:-100px;
+border-color: rgb(230, 222, 222);
 
 }
 .btn-warning{
     color: white;
     position: relative;
-    margin: 0 auto;
-    left: 100px;
+    margin: 0 auto ;
+    /* left: 9rem; */
     border-style: solid;
   border-color: rgb(255, 255, 255);
 
 
  
-    margin-right:10px;
-    width: 44%;
+   
+    width: 150px;
     height: 55px;
 }
 
@@ -397,7 +440,7 @@ border-style: solid;
     width:20%;
     font-size: 0.06rem;
 }
-
+/* 
 .grenlab{
     color: green;
     text-decoration-line: underline;
@@ -405,7 +448,7 @@ border-style: solid;
     font-size: 0.5rem;
     text-align: center;
     margin:  auto;
-}
+} */
 
 
 
@@ -418,179 +461,194 @@ border-style: solid;
 
 
 
-}
-   
+} 
+@media all and (min-width: 480px) and (max-width: 768px)  { 
 
-@media all and (min-width: 480px) and (max-width: 768px){
+    .ban1{
+        background-image: url("assets/img/HeadlineImage_1.jpg");
+        position: relative;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 35rem;
+        top:px;
+        }
 
-    body{
-        background-color:rgb(59, 28, 2) ;
-        z-index: -3;
-       
+        h1{
+            position: relative;
+            margin: 0 auto;
+            font-size: 1.1rem;
+            font-family: bold;
+            color: aliceblue;
+            text-align: center;
+            font-weight: bolder;
+            padding-top: 18px;
         
-    }
+        
+           }
+        
+           .p1{
+            color: red;
+            padding-top: 20px;
+            text-align: center;
+            max-width: 100%;
+            height: 8\10vw;
+            font-weight: bolder;
+            font-size: 5.0rem;
+            font-family: bold;
+            background-color: rgba(255, 255, 255, 0.685);
+            border-radius: 3px;
+           }
+        
+           .p2{
+               color: aliceblue;
+               font-size: 01.3rem;
+               max-width: 95%;
+              text-align:  center;
+              padding-left:12px; 
+        
+              }
+              /*  */
 
-    .innerbg{
-        position: relative;
-        background-color:white ;
-        z-index: -2;
-        margin: 0 auto;
-        width: 66%;
-  
-   } 
-   
+              
+              h2{
+                color:rgb(7, 3, 3);
+                position: relative;
+                left:30px;
+                top: 20px;
+                width:75%;
+                text-align: left;
+                font-size: 1.2rem;
+                width: 90%;
+                padding-top:10px;
+               } 
+               /*  */
+               .desserts{
+                position: relative;
+                background: rgb(131,61,16);
+                background: linear-gradient(90deg, rgba(131,61,16,0.4472163865546218) 0%, rgba(214,134,44,0.9710259103641457) 45%, rgba(204,174,26,0.23993347338935578) 100%);
+                top: 30px;
+               
+                /* height:700px; */
+               
+        
+            } 
+              
+           /* .tasty{
+          
 
-
-   .ban1{
-   background-image: url("assets/img/HeadlineImage_1.jpg");
-   position: absolute;
-   background-size: cover;
-   background-repeat: no-repeat;
-   width: 100%;
-   height: 200px;
-   left:0px;
-   top: 0px;
-   
-   }
-
-   h1{
-    font-size: 1.1rem;
-    font-family: bold;
-    color: aliceblue;
-    text-align: center;
-    padding-top: 12px;
-    text-align: center;
-    margin: auto;
-    left: 20px;
-
-
-   }
-
-   #redh1{
-       color: red;
-       text-align: center;
-       max-width: 100%;
-       font-size: 1.8rem;
-       font-family: bold;
-       background-color: rgba(255, 255, 255, 0.685);
-       border-radius: 3px;
-   }
-
-   #p2{
-       color: aliceblue;
-       font-size: 0.9rem;
-       max-width: 95%;
-      text-align:  center;
-      padding-left:12px; 
-
-      }
-
-      h2{
-          position: relative;
-          top: 220px;
-          font-size: 0.02rem;
-          max-width: 90%;
-          padding-left: 25px;
-      }
-
-      .desserts{
-          position: relative;
-          background: rgb(131,61,16);
-background: linear-gradient(90deg, rgba(131,61,16,0.4472163865546218) 0%, rgba(214,134,44,0.9710259103641457) 45%, rgba(204,174,26,0.23993347338935578) 100%);
-        top: 220px;
-        height: 150px;
-      }
-
-
-    ul{
-        position: relative;
-        top: -6px;
-        height: 150px;
-        max-width: 100%;
-        list-style-type: none;
-        padding:0;
+                width:150px;
+               border: 5px solid red;
+               float: left;
+                margin: 2px; 
+               top: 200px;
+               position: relative;
+               display: block;
+               width: 180px; 
+               text-align: center;
+                margin:0 auto;   
+                float: left;   
+               
+           } */
+           
+        /*
+           #picName{
        
-
-    }
-      
-   
-   .tasty{
-       width: 25%;
-       margin: 15px;
-       float: left;
-
-       
-       
-       
-   }
-   .pictags{
-       
+               /* position: relative;
+               top: 200px;
+               margin: 0 auto;
+               text-align: center;
+               font-size: 1.8em; */
+        
+.item{
     position: relative;
-    top: -60px;
-    left: 20px;
-    font-size: 0.8rem;
-    height: 150px;
-    max-width: 100%;
-    list-style-type: none;
-    padding:0;
+    margin: 0 auto;
    
+  width:80%px;
+  text-align:center;
+  display:block;
+  margin: 20px;
+  /* float:left; */
+  
+}
 
-   }
+#index-gallery{
+    position: absolute;
+    top:650px;
+    background: linear-gradient(90deg, rgba(131,61,16,0.4472163865546218) 0%, rgba(214,134,44,0.9710259103641457) 45%, rgba(204,174,26,0.23993347338935578) 100%);
 
-   #tag{
-      font-family: bold;
-    color: rgb(65, 26, 1);
-    width: 25%;
-    margin: 15px;
-    float: left;
-   }
+  width:100%;
+  height: 1500px;
+ 
+}
 
-   #p1{
-       
-       color: rgb(0, 0, 0);
-       position: relative;
-       top: 170px;
-       max-width: 80%;
-       height: 20px;
-       font-family: bold;
-       font-size: 0.75rem;
-       left: 25px;
-       text-align: left;
-       margin: 0;
-       
-       
-   }
-   #p23{
+.innerdiv{
+    position: relative;
+    margin: 0 auto;
+    width: 90%;
+    height: 300px;
+
+
+
+}
+
+.imgitem{
+    position: relative;
+    width:280px;
+}
+ .item, p{
+     text-align: center;
+     font-size: 2em;
+ }
+
+ /*  */
+
+ .cp1{
+     position: relative;
+     top:1500px
+ }
+ #p23{
        
     color: rgb(0, 0, 0);
     position: relative;
-    top: 250px;
     text-align: left;
     max-width: 80% ;
     height: 20px;
     font-family: bold;
+    top: 20px;
     font-size: 0.75rem;
     left: 25px;
     margin: 0;
    }
 
-
-   p span{
-       padding-top: 15px;
-       display: block;
+    #p23 ,span{
+       padding-top:40px;
    }
-   
    #enz{
-       position: relative;
-       top: 340px;
-       color: rgb(1, 2, 2);
-       font-size: 0.1rem;
-       margin: 15px;
-       left: 25px;
-   }
-   #enz li:before {
-    content: '✓';
+       list-style-type: none; 
+    position: relative;
+    top: 60px;
+    color: rgb(1, 2, 2);
+    font-size: 0.6rem;
+    margin: 15px;
+    left: -25px;
+}
+  #p24{
+
+    position: relative;
+    top:70px;
+    font-size: 0.6rem;
+    max-width: 80% ;
+    left:20px;
   }
+
+
+   
+   
+   #enz li:before {
+    content: '✓ ';
+  }
+  
   #p4{
     color: rgb(0, 0, 0);
     position: relative;
@@ -602,492 +660,96 @@ background: linear-gradient(90deg, rgba(131,61,16,0.4472163865546218) 0%, rgba(2
     font-size: 0.75rem;
     left: 25px;
     margin: 0;
-  }
+  }  
+
+/*  */
+.paralax{
+ 
+    position: relative;
+    top:1560px;
+    background-image: url("assets/img/ParallaxOne_5.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width:100%;
+    height: 200px;
+    /* border: 5px solid red; */
+  
+  
+}
 
 
-  .paralax{
-      position: relative;
-      top: 255px;
-      background-image: url("assets/img/ParallaxOne_5.jpg");
-      background-size:cover;
-      height: 120px;
-      
-  }
+
+ 
   h3{
       position: relative;
+      height: 110px;
+      font-weight: bolder;
       font-family: bold;
-      color: white;
-      font-size: 0.65rem;
+      color: rgb(226, 226, 226);
+      font-size: 1.7rem;
       text-align: left;
       padding-left: 8px;
-      top: 30px;
+      top: 50px;
 
   }
   h3 span{
+    /* border: 5px solid red; */
       font-family: sans-serif;
-    padding-top: 10px;
-    display: block;
-    font-size: 0.07rem;
+    padding-top: 20px;
+    color: rgb(226, 226, 226);
+    font-size: 0.9rem;
 }
 .bar {
+    /* border: 5px solid red; */
     position: relative;
     background-color: #3d1c0f;
-    top: 280px;
-    padding-right: 60px;
-    width: 90%;
-    height: 110px;
+    top: 1580px;
+    width: 100%;
+    height: 280px;
 }
-h4{
+h4
+{ 
+    
+    position: relative;
+    top: 10%;
+    width:80%;
+    left:5px;
+    margin: 0 auto;
     color: rgb(255, 255, 255);
-    padding-top: 5px;
-    font-size: 0.001rem;
-    padding-left: 10px;
-    width:55%;
-    float: right;
+    font-size: 0.9rem;
+    text-align: center;
+    /* border: 5px solid red; */
+    width:80%;
+    
     
     
 
 }
 h4 span{
-    padding-top: 10px;
+    padding-top: 15px;
     display: block;
 
 }
 
 #docimg {
-   top: 200px;
-    width: 30%;
-    
-    padding: 0px;
-}
-.skep{
     position: relative;
-    top: 300px;
-
-}
-
-#br{
-    text-align: left;
-    font-size: 0.3rem;
-    margin: 0 auto;
-    width: 75%;
-    padding-bottom: 5px;
-
-}
-
-#rd{
-    text-align: left;
-    font-size: 0.3rem;
-    margin: 0 auto;
-    width: 75%;
-    padding-bottom: 5px;
-
-}
-
-.gears{
-    background-image: url("assets/img/Gears_15.jpg");
-    position: relative;
-    top: 310px;
-    height: 230px;
-    background-size:cover;
-
-
-}
-
-#yell{
-    padding-top: 8px;
-    text-align: left;
-    color: yellow;
-    margin: 0 auto;
-    font-size: 0.5rem;
-    width:66%;
-
-
-}
-
-
-
-#yell span {
-    color: aliceblue;
-    font-size: 0.1rem;
-    margin: 0 auto;
-    padding-top: 5px;
-    padding-bottom: 2px;
-}
-
-#secp{
-    color: aliceblue;
-    font-size: 0.1rem;
-    margin: 0 auto;
-    padding-top: 5px;
-    padding-bottom: 2px;
-    margin: 0 auto;
-    width:66%;
-
-
-}
-
-#threep {
-    color: aliceblue;
-    font-size: 0.01rem;
-    margin: 0 auto;
-    padding-top: 5px;
-    padding-bottom: 2px;
-    margin: 0 auto;
-    width:66%;
-
-}
-
-
-.findiv{
-   
-    position: relative;
-    top:320px;
-    margin: 0 auto;
-}
-#gatee{
-    position: relative;
-    margin: 0 auto;
-    width: 100%;
-
-}
-
-.lastcontainer1{
-    width: 75%;
-    height: 100%;
-    margin: 0 auto;
-    
-   
-}
-.lastcontainer2{
-    width: 90%;
-    height: 100%;
-    margin: 0 auto;
-    background-color: rgba(248, 248, 248, 0.521);
-}
-.gln{
-    width: 66%;
-  
-}
-
-.fin{
-    position: relative;
-    top:55px;
-    background-image: url("assets/img/TransparentArrowBkgd.jpg");
-    z-index:1;
-   
-    height:1500px;
-    
-    
-    background-size:cover;
-    
-   
-
-}
-.findiv2{
-    position: relative;
-    width: 66%;
-    top: 264px;
-    background-color: rgba(248, 248, 248, 0.541);
-
-
-    margin: 0 auto;
-}
-
-.arrow{
-    position: relative;
-    top:248px;
-    margin: 0 auto;
-    width: 100%;
-    left: 68px;
-    opacity: 0.5;
-
-
-}
-.buttonfin{
-position: relative;
-top: 300px;
-border-style: solid;
-  border-color: red;
-
-}
-.btn-warning{
-    color: white;
-    position: relative;
-    margin: 0 auto;
-    left: 100px;
-    border-style: solid;
-  border-color: rgb(255, 255, 255);
-
-
- 
-    margin-right:10px;
-    width: 44%;
-    height: 55px;
-}
-
-.btn span{
-    width:20%;
-    font-size: 0.06rem;
-}
-
-.grenlab{
-    color: green;
-    text-decoration-line: underline;
-    width:45%;
-    font-size: 0.5rem;
-    text-align: center;
-    margin:  auto;
-}
-}
-
-@media all and (min-width: 620px) and (max-width: 720px){
-    body{
-        background-color:rgb(59, 28, 2) ;
-        z-index: -3;
-       
-        
-    }
-
-    .innerbg{
-        position: relative;
-        background-color:white ;
-        z-index: -2;
-        margin: 0 auto;
-        width: 66%;
-  
-   } 
-   
-
-
-   .ban1{
-   background-image: url("assets/img/HeadlineImage_1.jpg");
-   position: absolute;
-   background-size: cover;
-   background-repeat: no-repeat;
-   width: 100%;
-   height: 200px;
-   left:0px;
-   top: 0px;
-   
-   }
-
-   h1{
-    font-size: 1.1rem;
-    font-family: bold;
-    color: aliceblue;
-    text-align: center;
-    padding-top: 12px;
-    text-align: center;
-    margin: auto;
-    left: 20px;
-
-
-   }
-
-   #redh1{
-       color: red;
-       text-align: center;
-       max-width: 100%;
-       font-size: 1.8rem;
-       font-family: bold;
-       background-color: rgba(255, 255, 255, 0.685);
-       border-radius: 3px;
-   }
-
-   #p2{
-       color: aliceblue;
-       font-size: 0.9rem;
-       max-width: 95%;
-      text-align:  center;
-      padding-left:12px; 
-
-      }
-
-      h2{
-          position: relative;
-          top: 220px;
-          font-size: 0.02rem;
-          max-width: 90%;
-          padding-left: 25px;
-      }
-
-      .desserts{
-          position: relative;
-          background: rgb(131,61,16);
-background: linear-gradient(90deg, rgba(131,61,16,0.4472163865546218) 0%, rgba(214,134,44,0.9710259103641457) 45%, rgba(204,174,26,0.23993347338935578) 100%);
-        top: 220px;
-        height: 150px;
-      }
-
-
-    ul{
-        position: relative;
-        top: -6px;
-        height: 150px;
-        max-width: 100%;
-        list-style-type: none;
-        padding:0;
-       
-
-    }
-      
-   
-   .tasty{
-       width: 25%;
-       margin: 15px;
-       float: left;
-
-       
-       
-       
-   }
-   .pictags{
-       
-    position: relative;
-    top: -60px;
-    left: 20px;
-    font-size: 0.8rem;
-    height: 150px;
-    max-width: 100%;
-    list-style-type: none;
-    padding:0;
-   
-
-   }
-
-   #tag{
-      font-family: bold;
-    color: rgb(65, 26, 1);
-    width: 25%;
-    margin: 15px;
+    top: 5%;
     float: left;
-   }
-
-   #p1{
-       
-       color: rgb(0, 0, 0);
-       position: relative;
-       top: 170px;
-       max-width: 80%;
-       height: 20px;
-       font-family: bold;
-       font-size: 0.75rem;
-       left: 25px;
-       text-align: left;
-       margin: 0;
-       
-       
-   }
-   #p23{
-       
-    color: rgb(0, 0, 0);
-    position: relative;
-    top: 250px;
-    text-align: left;
-    max-width: 80% ;
-    height: 20px;
-    font-family: bold;
-    font-size: 0.75rem;
-    left: 25px;
-    margin: 0;
-   }
-
-
-   p span{
-       padding-top: 15px;
-       display: block;
-   }
-   
-   #enz{
-       position: relative;
-       top: 340px;
-       color: rgb(1, 2, 2);
-       font-size: 0.1rem;
-       margin: 15px;
-       left: 25px;
-   }
-   #enz li:before {
-    content: '✓';
-  }
-  #p4{
-    color: rgb(0, 0, 0);
-    position: relative;
-    top: 240px;
-    text-align: left;
-    max-width: 80% ;
-    height: 20px;
-    font-family: bold;
-    font-size: 0.75rem;
-    left: 25px;
-    margin: 0;
-  }
-
-
-  .paralax{
-      position: relative;
-      top: 255px;
-      background-image: url("assets/img/ParallaxOne_5.jpg");
-      background-size:cover;
-      height: 120px;
-      
-  }
-  h3{
-      position: relative;
-      font-family: bold;
-      color: white;
-      font-size: 0.65rem;
-      text-align: left;
-      padding-left: 8px;
-      top: 30px;
-
-  }
-  h3 span{
-      font-family: sans-serif;
-    padding-top: 10px;
-    display: block;
-    font-size: 0.07rem;
-}
-.bar {
-    position: relative;
-    background-color: #3d1c0f;
-    top: 280px;
-    padding-right: 60px;
-    width: 90%;
-    height: 110px;
-}
-h4{
-    color: rgb(255, 255, 255);
-    padding-top: 5px;
-    font-size: 0.001rem;
-    padding-left: 10px;
-    width:55%;
-    float: right;
+     /* visibility: hidden; */
+    height: 250px;
+    /* border: 5px solid red; */
     
     
-
-}
-h4 span{
-    padding-top: 10px;
-    display: block;
-
-}
-
-#docimg {
-   top: 200px;
-    width: 30%;
-    
-    padding: 0px;
 }
 .skep{
     position: relative;
-    top: 300px;
+    top: 1600px;
 
 }
 
 #br{
     text-align: left;
-    font-size: 0.3rem;
+    font-size: 0.7rem;
     margin: 0 auto;
     width: 75%;
     padding-bottom: 5px;
@@ -1096,1211 +758,818 @@ h4 span{
 
 #rd{
     text-align: left;
-    font-size: 0.3rem;
+    font-size: 0.7rem;
     margin: 0 auto;
     width: 75%;
     padding-bottom: 5px;
 
 }
 
-.gears{
-    background-image: url("assets/img/Gears_15.jpg");
-    position: relative;
-    top: 310px;
-    height: 230px;
-    background-size:cover;
 
 
 }
 
-#yell{
-    padding-top: 8px;
-    text-align: left;
-    color: yellow;
-    margin: 0 auto;
-    font-size: 0.5rem;
-    width:66%;
+@media all and (min-width: 768px) and (max-width: 1024px) { 
+    .ban1{
+        background-image: url("assets/img/HeadlineImage_1.jpg");
+        position: relative;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 35rem;
+        top:px;
+        }
+
+        h1{
+            position: relative;
+            margin: 0 auto;
+            font-size: 3.3rem;
+            font-family: bold;
+            color: aliceblue;
+            text-align: center;
+            font-weight: bolder;
+            padding-top: 18px;
+        
+        
+           }
+        
+           .p1{
+               color: red;
+               padding-top: 20px;
+               text-align: center;
+               max-width: 100%;
+               height: 8\10vw;
+               font-weight: bolder;
+               font-size: 5.0rem;
+               font-family: bold;
+               background-color: rgba(255, 255, 255, 0.685);
+               border-radius: 3px;
+           }
+        
+           .p2{
+               color: aliceblue;
+               font-size: 01.8rem;
+               max-width: 95%;
+              text-align:  center;
+              padding-left:12px; 
+        
+              }
+              h2{
+                color:rgb(7, 3, 3);
+                position: relative;
+                left:30px;
+                top: 20px;
+                width:75%;
+                text-align: left;
+                font-size: 1.2rem;
+                width: 90%;
+                padding-top:10px;
+               } 
+              
+
+              /* goey */
+
+              .item{
+                position: relative;
+                margin: 0 auto;
+               text-align: center;
+              width:200px;
+              text-align:center;
+              display:block;
+              margin: 30px;
+              float:left;
+              
+            }
+            
+            #index-gallery{
+                position: absolute;
+                top:650px;
+                background: linear-gradient(90deg, rgba(131,61,16,0.4472163865546218) 0%, rgba(214,134,44,0.9710259103641457) 45%, rgba(204,174,26,0.23993347338935578) 100%);
+                border: 5px solid red; 
+              width:100%;
+              height: 300px;
+             
+            }
+            
+            .innerdiv{
+                position: relative;
+                margin: 0 auto;
+                border: 5px solid yellow; 
+                width: 800px;
+                height: 300px;
+            
+            
+            }
+            
+            .imgitem{
+                position: relative;
+                margin: 0 auto;
+                width:200px;
+                
+            }
+             .item, p{
+                 text-align: center;
+                 font-size: 1.1em;
+             }
+             /*  */
+
+             .cp1{
+                position: relative;
+                top:300px
+            }
+            #p23{
+                  
+               color: rgb(0, 0, 0);
+               position: relative;
+               text-align: left;
+               max-width: 80% ;
+               height: 20px;
+               font-family: bold;
+               top: 50px;
+               font-size: 0.75rem;
+               left: 25px;
+               margin: 0;
+              }
+           
+               #p23 ,span{
+                  padding-top:20px;
+              }
+              #enz{
+                  list-style-type: none; 
+               position: relative;
+               top: 80px;
+               color: rgb(1, 2, 2);
+               font-size: 0.6rem;
+               margin: 15px;
+               left: -25px;
+           }
+             #p24{
+           
+               position: relative;
+               top:80px;
+               font-size: 0.75rem;
+               max-width: 80% ;
+               left:20px;
+             }
+           
+           
+              
+              
+              #enz li:before {
+               content: '✓ ';
+             }
+             
+             #p4{
+               color: rgb(0, 0, 0);
+               position: relative;
+               top: 240px;
+               text-align: left;
+               max-width: 80% ;
+               height: 20px;
+               font-family: bold;
+               font-size: 0.75rem;
+               left: 25px;
+               margin: 0;
+             }  
+
+             /*  */
+             .paralax{
+ 
+                position: relative;
+                top:360px;
+                background-image: url("assets/img/ParallaxOne_5.jpg");
+                background-size: cover;
+                background-repeat: no-repeat;
+                max-width:100%;
+                height: 200px;
+                /* border: 5px solid red; */
+              
+              
+            }
+            
+            
+            
+             
+              h3{
+                  position: relative;
+                  height: 120px;
+                  font-weight: bolder;
+                  font-family: bold;
+                  color: rgb(226, 226, 226);
+                  font-size: 1.7rem;
+                  text-align: left;
+                  padding-left: 8px;
+                  top: 30px;
+            
+              }
+              h3 span{
+                /* border: 5px solid red; */
+                  font-family: sans-serif;
+                padding-top: 20px;
+                color: rgb(226, 226, 226);
+                font-size: 0.9rem;
+            }
+            /*  */
+            .bar {
+                /* border: 5px solid red; */
+                position: relative;
+                background-color: #3d1c0f;
+                top: 400px;
+                width: 100%;
+                height: 280px;
+            }
+            h4
+            { 
+                
+                position: relative;
+                top: 10%;
+                width:80%;
+                left:5px;
+                margin: 0 auto;
+                color: rgb(255, 255, 255);
+                font-size: 1.5rem;
+                text-align: center;
+                /* border: 5px solid red; */
+                width:80%;
+                
+                
+                
+            
+            }
+            h4 span{
+                padding-top: 30px;
+                display: block;
+            
+            }
+            
+            #docimg {
+                position: relative;
+                top: 5%;
+                float: left;
+                 /* visibility: hidden; */
+                height: 250px;
+                /* border: 5px solid red; */
+                
+                
+            
+            }
+            .skep{
+                position: relative;
+                top: 440px;
+            
+            }
+            
+            #br{
+                text-align: left;
+                font-size: 0.8rem;
+                margin: 0 auto;
+                width: 75%;
+                padding-bottom: 5px;
+            
+            }
+            
+            #rd{
+                text-align: left;
+                font-size: 0.8rem;
+                margin: 0 auto;
+                width: 75%;
+                padding-bottom: 5px;
+            
+            }
+           
+           
+
+
+
+
 
 
 }
 
+@media all and (min-width: 1024px) and (max-width: 1280px) { 
+
+    .ban1{
+        background-image: url("assets/img/HeadlineImage_1.jpg");
+        position: relative;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+       height: 35rem;
+       
+        }
+
+        h1{
+            position: relative;
+            margin: 0 auto;
+            font-size: 3.3rem;
+            font-family: bold;
+            color: aliceblue;
+            text-align: center;
+            font-weight: bolder;
+            padding-top: 18px;
+        
+        
+           }
+        
+           .p1{
+               color: red;
+               padding-top: 20px;
+               text-align: center;
+               max-width: 100%;
+               height: 8\10vw;
+               font-weight: bolder;
+               font-size: 5.0rem;
+               font-family: bold;
+               background-color: rgba(255, 255, 255, 0.685);
+               border-radius: 3px;
+           }
+        
+           .p2{
+               color: aliceblue;
+               font-size: 01.8rem;
+               max-width: 95%;
+              text-align:  center;
+              padding-left:12px; 
+        
+              }
+              h2{
+                color:rgb(7, 3, 3);
+                position: relative;
+                left:30px;
+                top: 20px;
+                width:75%;
+                text-align: left;
+                font-size: 1.2rem;
+                width: 90%;
+                padding-top:10px;
+               } 
+
+              /*  */
+
+              .item{
+                position: relative;
+                margin: 0 auto;
+               text-align: center;
+              width:200px;
+              text-align:center;
+              display:block;
+              margin: 30px;
+              float:left;
+              
+            }
+            
+            #index-gallery{
+                position: absolute;
+                top:650px;
+                background: linear-gradient(90deg, rgba(131,61,16,0.4472163865546218) 0%, rgba(214,134,44,0.9710259103641457) 45%, rgba(204,174,26,0.23993347338935578) 100%);
+                border: 5px solid red; 
+              width:100%;
+              height: 300px;
+             
+            }
+            
+            .innerdiv{
+                position: relative;
+                margin: 0 auto;
+                border: 5px solid yellow; 
+                width: 800px;
+                height: 300px;
+            
+            
+            }
+            
+            .imgitem{
+                position: relative;
+                margin: 0 auto;
+                width:200px;
+                
+            }
+             .item, p{
+                 text-align: center;
+                 font-size: 1.1em;
+             }
+
+             /*  */
+             .cp1{
+                position: relative;
+                top:300px
+            }
+            #p23{
+                  
+               color: rgb(0, 0, 0);
+               position: relative;
+               text-align: left;
+               max-width: 80% ;
+               height: 20px;
+               font-family: bold;
+               top: 50px;
+               font-size: 0.75rem;
+               left: 25px;
+               margin: 0;
+              }
+           
+               #p23 ,span{
+                  padding-top:20px;
+              }
+              #enz{
+                  list-style-type: none; 
+               position: relative;
+               top: 80px;
+               color: rgb(1, 2, 2);
+               font-size: 0.6rem;
+               margin: 15px;
+               left: -25px;
+           }
+             #p24{
+           
+               position: relative;
+               top:80px;
+               font-size: 0.75rem;
+               max-width: 80% ;
+               left:20px;
+             }
+           
+           
+              
+              
+              #enz li:before {
+               content: '✓ ';
+             }
+             
+             #p4{
+               color: rgb(0, 0, 0);
+               position: relative;
+               top: 240px;
+               text-align: left;
+               max-width: 80% ;
+               height: 20px;
+               font-family: bold;
+               font-size: 0.75rem;
+               left: 25px;
+               margin: 0;
+             }  
+             /*  */
+             .paralax{
+ 
+                position: relative;
+                top:360px;
+                background-image: url("assets/img/ParallaxOne_5.jpg");
+                background-size: cover;
+                background-repeat: no-repeat;
+                max-width:100%;
+                height: 400px;
+                /* border: 5px solid red; */
+              
+              
+            }
+            
+            
+            
+             
+              h3{
+                  position: relative;
+                  height: 120px;
+                  font-weight: bolder;
+                  font-family: bold;
+                  color: rgb(226, 226, 226);
+                  font-size: 1.7rem;
+                  text-align: left;
+                  padding-left: 8px;
+                  top: 30px;
+            
+              }
+              h3 span{
+                /* border: 5px solid red; */
+                  font-family: sans-serif;
+                padding-top: 20px;
+                color: rgb(226, 226, 226);
+                font-size: 0.9rem;
+            }
+            /*  */
+            .bar {
+                /* border: 5px solid red; */
+                position: relative;
+                background-color: #3d1c0f;
+                top: 400px;
+                width: 100%;
+                height: 280px;
+            }
+            h4
+            { 
+                
+                position: relative;
+                top: 10%;
+                width:80%;
+                left:5px;
+                margin: 0 auto;
+                color: rgb(255, 255, 255);
+                font-size: 1.9rem;
+                text-align: center;
+                /* border: 5px solid red; */
+                width:80%;
+                
+                
+                
+            
+            }
+            h4 span{
+                padding-top: 30px;
+                display: block;
+            
+            }
+            
+            #docimg {
+                position: relative;
+                top: 5%;
+                float: left;
+                 /* visibility: hidden; */
+                height: 250px;
+                /* border: 5px solid red; */
+                
+                
+            
+            }
+            /*  */
+            .skep{
+                position: relative;
+                top: 440px;
+            
+            }
+            
+            #br{
+                text-align: left;
+                font-size: 0.8rem;
+                margin: 0 auto;
+                width: 75%;
+                padding-bottom: 5px;
+            
+            }
+            
+            #rd{
+                text-align: left;
+                font-size: 0.8rem;
+                margin: 0 auto;
+                width: 75%;
+                padding-bottom: 5px;
+            
+            }s
 
 
-#yell span {
-    color: aliceblue;
-    font-size: 0.1rem;
-    margin: 0 auto;
-    padding-top: 5px;
-    padding-bottom: 2px;
+
 }
 
-#secp{
-    color: aliceblue;
-    font-size: 0.1rem;
-    margin: 0 auto;
-    padding-top: 5px;
-    padding-bottom: 2px;
-    margin: 0 auto;
-    width:66%;
+@media all and (min-width: 1280px) and (max-width: 2000px){
+    .ban1{
+        background-image: url("assets/img/HeadlineImage_1.jpg");
+        position: relative;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 600px;
+       
+        }
 
-
-}
-
-#threep {
-    color: aliceblue;
-    font-size: 0.01rem;
-    margin: 0 auto;
-    padding-top: 5px;
-    padding-bottom: 2px;
-    margin: 0 auto;
-    width:66%;
-
-}
-
-
-.findiv{
-   
-    position: relative;
-    top:320px;
-    margin: 0 auto;
-}
-#gatee{
-    position: relative;
-    margin: 0 auto;
-    width: 100%;
-
-}
-
-.lastcontainer1{
-    width: 75%;
-    height: 100%;
-    margin: 0 auto;
+        h1{
+            position: relative;
+            margin: 0 auto;
+            font-size: 3.3rem;
+            font-family: bold;
+            color: aliceblue;
+            text-align: center;
+            font-weight: bolder;
+            padding-top: 18px;
+        
+        
+           }
+        
+           .p1{
+               color: red;
+               padding-top: 20px;
+               text-align: center;
+               max-width: 100%;
+               height: 8\10vw;
+               font-weight: bolder;
+               font-size: 5.0rem;
+               font-family: bold;
+               background-color: rgba(255, 255, 255, 0.685);
+               border-radius: 3px;
+           }
+        
+           .p2{
+               color: aliceblue;
+               font-size: 01.8rem;
+               max-width: 95%;
+              text-align:  center;
+              padding-left:12px; 
+        
+              }
+    /*  */
+    .item{
+        position: relative;
+        margin: 0 auto;
+       text-align: center;
+      width:200px;
+      text-align:center;
+      display:block;
+      margin: 30px;
+      float:left;
+      
+    }
     
-   
+    #index-gallery{
+        position: absolute;
+        top:650px;
+        background: linear-gradient(90deg, rgba(131,61,16,0.4472163865546218) 0%, rgba(214,134,44,0.9710259103641457) 45%, rgba(204,174,26,0.23993347338935578) 100%);
+
+      width:100%;
+      height: 300px;
+     
+    }
+    
+    .innerdiv{
+        position: relative;
+        margin: 0 auto;
+ 
+        width: 800px;
+        height: 300px;
+    
+    
+    }
+    
+    .imgitem{
+        position: relative;
+        margin: 0 auto;
+        width:200px;
+        
+    }
+     .item, p{
+         text-align: center;
+         font-size: 1.1em;
+     }
+  /*  */
+  .cp1{
+    position: relative;
+    top:300px
 }
-.lastcontainer2{
-    width: 90%;
-    height: 100%;
-    margin: 0 auto;
-    background-color: rgba(248, 248, 248, 0.521);
+#p23{
+      
+   color: rgb(0, 0, 0);
+   position: relative;
+   text-align: left;
+   max-width: 80% ;
+   height: 20px;
+   font-family: bold;
+   top: 50px;
+   font-size: 1.0rem;
+   left: 25px;
+   margin: 0;
+  }
+
+   #p23 ,span{
+      padding-top:30px;
+  }
+  #enz{
+      list-style-type: none; 
+   position: relative;
+   top: 80px;
+   color: rgb(1, 2, 2);
+   font-size: 0.9rem;
+   margin: 15px;
+   left: -25px;
 }
-.gln{
-    width: 66%;
+ #p24{
+
+   position: relative;
+   top:80px;
+   font-size: 0.8rem;
+   max-width: 80% ;
+   left:20px;
+ }
+
+
+  
+  
+  #enz li:before {
+   content: '✓ ';
+ }
+ 
+ #p4{
+   color: rgb(0, 0, 0);
+   position: relative;
+   top: 240px;
+   text-align: left;
+   max-width: 80% ;
+   height: 20px;
+   font-family: bold;
+   font-size: 0.75rem;
+   left: 25px;
+   margin: 0;
+ }  
+ /*  */
+
+ .paralax{
+ 
+    position: relative;
+    top:360px;
+    background-image: url("assets/img/ParallaxOne_5.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width:100%;
+    height: 400px;
+    /* border: 5px solid red; */
+  
   
 }
 
-.fin{
-    position: relative;
-    top:55px;
-    background-image: url("assets/img/TransparentArrowBkgd.jpg");
-    z-index:1;
-   
-    height:1500px;
-    
-    
-    background-size:cover;
-    
-   
-
-}
-.findiv2{
-    position: relative;
-    width: 66%;
-    top: 264px;
-    background-color: rgba(248, 248, 248, 0.541);
-
-
-    margin: 0 auto;
-}
-
-.arrow{
-    position: relative;
-    top:248px;
-    margin: 0 auto;
-    width: 100%;
-    left: 68px;
-    opacity: 0.5;
-
-
-}
-.buttonfin{
-position: relative;
-top: 300px;
-border-style: solid;
-  border-color: red;
-
-}
-.btn-warning{
-    color: white;
-    position: relative;
-    margin: 0 auto;
-    left: 100px;
-    border-style: solid;
-  border-color: rgb(255, 255, 255);
 
 
  
-    margin-right:10px;
-    width: 44%;
-    height: 55px;
+  h3{
+      position: relative;
+      height: 120px;
+      font-weight: bolder;
+      font-family: bold;
+      color: rgb(226, 226, 226);
+      font-size: 1.7rem;
+      text-align: left;
+      padding-left: 8px;
+      top: 30px;
+
+  }
+  h3 span{
+    /* border: 5px solid red; */
+      font-family: sans-serif;
+    padding-top: 20px;
+    color: rgb(226, 226, 226);
+    font-size: 0.9rem;
 }
 
-.btn span{
-    width:20%;
-    font-size: 0.06rem;
+.bar {
+    /* border: 5px solid red; */
+    position: relative;
+    background-color: #3d1c0f;
+    top: 400px;
+    width: 80%;
+    height: 280px;
 }
-
-.grenlab{
-    color: green;
-    text-decoration-line: underline;
-    width:45%;
-    font-size: 0.5rem;
+h4
+{ 
+    
+    position: relative;
+    top: 10%;
+    width:80%;
+    left:5px;
+    margin: 0 auto;
+    color: rgb(255, 255, 255);
+    font-size: 1.9rem;
     text-align: center;
-    margin:  auto;
-}
-}
-
-
- 
-
-
-
-
-  
-
-@media all and (min-width: 720px) and (max-width: 1024px){
-
-
-    body{
-        background-color:rgb(59, 28, 2) ;
-        z-index: -3;
-       
-        
-    }
-
-    .innerbg{
-        position: relative;
-        background-color:white ;
-        z-index: -2;
-        margin: 0 auto;
-        width: 66%;
-  
-   } 
-     
-     
-        .ban1{
-        background-image: url("assets/img/HeadlineImage_1.jpg");
-        position: absolute;
-        background-size: cover;
-        background-repeat: no-repeat;
-        width: 100%;
-        height: 200px;
-        left:0px;
-        top: 0px;
-        
-        }
-     
-        h1{
-         font-size: 1.1rem;
-         font-family: bold;
-         color: aliceblue;
-         text-align: center;
-         padding-top: 12px;
-     
-     
-        }
-     
-        #redh1{
-            color: red;
-            text-align: center;
-            max-width: 100%;
-            font-size: 1.8rem;
-            font-family: bold;
-            background-color: rgba(255, 255, 255, 0.685);
-            border-radius: 3px;
-        }
-
-      .p1  {
-          position: relative;
-          padding-top: 10px;
-
-        }
-     
-        #p2{
-            color: aliceblue;
-            font-size: 0.9rem;
-            max-width: 95%;
-           text-align:  center;
-           padding-left:12px; 
-     
-           }
-     
-           h2{
-               position: relative;
-               top: 220px;
-               font-size: 0.02rem;
-               max-width: 90%;
-               padding-left: 25px;
-           }
-     
-           .desserts{
-               position: relative;
-               background: rgb(131,61,16);
-     background: linear-gradient(90deg, rgba(131,61,16,0.4472163865546218) 0%, rgba(214,134,44,0.9710259103641457) 45%, rgba(204,174,26,0.23993347338935578) 100%);
-             top: 220px;
-             max-height: 210px;
-             
-           }
-     
-     
-         ul{
-             position: relative;
-             left: 20px;
-             margin: 0 auto;
-             top: -10px;
-             height: 150px;
-             max-width: 100%;
-             list-style-type: none;
-             padding:0;
-            
-     
-         }
-
-         .tag{
-             font-size: 0.8rem;
-         }
-           
-        
-        .tasty{
-            width: 23%;
-            left :20px;
-            margin: 15px;
-            float: left;
-     
-            
-            
-            
-        }
-        .pictags{
-            
-         position: relative;
-         top: -30px;
-         left: 20px;
-         font-size: 0.8rem;
-         height: 150px;
-         max-width: 100%;
-         list-style-type: none;
-        padding-top: 5px;
-        
-     
-        }
-     
-        #tag{
-           font-family: bold;
-         color: rgb(65, 26, 1);
-         width: 25%;
-         margin: 15px;
-         float: left;
-        }
-     
-        #p1{
-            
-            color: rgb(0, 0, 0);
-            position: relative;
-            top: 180px;
-            max-width: 80%;
-            height: 20px;
-            font-family: bold;
-            font-size: 0.75rem;
-            left: 20px;
-            text-align: left;
-            margin: 0;
-            
-            
-        }
-        #p23{
-            
-         color: rgb(0, 0, 0);
-         position: relative;
-         top: 250px;
-         text-align: left;
-         max-width: 80% ;
-         height: 20px;
-         font-family: bold;
-         font-size: 0.75rem;
-         left: 25px;
-         margin: 0;
-        }
-     
-     
-        p span{
-            padding-top: 15px;
-            display: block;
-        }
-        
-        #enz{
-            position: relative;
-            top: 340px;
-            color: rgb(1, 2, 2);
-            font-size: 0.1rem;
-            margin: 15px;
-            left: 25px;
-        }
-        #enz li:before {
-         content: '✓';
-       }
-       #p4{
-         color: rgb(0, 0, 0);
-         position: relative;
-         top: 240px;
-         text-align: left;
-         max-width: 80% ;
-         height: 20px;
-         font-family: bold;
-         font-size: 0.75rem;
-         left: 25px;
-         margin: 0;
-       }
-     
-     
-       .paralax{
-           position: relative;
-           top: 255px;
-           background-image: url("assets/img/ParallaxOne_5.jpg");
-           background-size:cover;
-           height: 120px;
-           
-       }
-       h3{
-           position: relative;
-           font-family: bold;
-           color: white;
-           font-size: 0.65rem;
-           text-align: left;
-           padding-left: 8px;
-           top: 30px;
-     
-       }
-       h3 span{
-           font-family: sans-serif;
-         padding-top: 10px;
-         display: block;
-         font-size: 0.07rem;
-     }
-     .bar {
-         position: relative;
-         background-color: #3d1c0f;
-         top: 280px;
-         padding-right: 60px;
-         width: 90%;
-         height: 110px;
-     }
-     h4{
-         color: rgb(255, 255, 255);
-         padding-top: 5px;
-         font-size: 0.001rem;
-         padding-left: 10px;
-         width:55%;
-         float: right;
-         
-         
-     
-     }
-     h4 span{
-         padding-top: 10px;
-         display: block;
-     
-     }
-     
-     #docimg {
-        top: 200px;
-         width: 25%;
-         
-         padding: 0px;
-     }
-     .skep{
-         position: relative;
-         top: 300px;
-     
-     }
-     
-     #br{
-         text-align: left;
-         font-size: 0.3rem;
-         margin: 0 auto;
-         width: 75%;
-         padding-bottom: 5px;
-     
-     }
-     
-     #rd{
-         text-align: left;
-         font-size: 0.3rem;
-         margin: 0 auto;
-         width: 75%;
-         padding-bottom: 5px;
-     
-     }
-     
-     .gears{
-         background-image: url("assets/img/Gears_15.jpg");
-         position: relative;
-         top: 310px;
-         height: 230px;
-         background-size:cover;
-     
-     
-     }
-     
-     #yell{
-         padding-top: 8px;
-         text-align: left;
-         color: yellow;
-         margin: 0 auto;
-         font-size: 0.5rem;
-         width:66%;
-     
-     
-     }
-     
-     
-     
-     #yell span {
-         color: aliceblue;
-         font-size: 0.1rem;
-         margin: 0 auto;
-         padding-top: 5px;
-         padding-bottom: 2px;
-     }
-     
-     #secp{
-         color: aliceblue;
-         font-size: 0.1rem;
-         margin: 0 auto;
-         padding-top: 5px;
-         padding-bottom: 2px;
-         margin: 0 auto;
-         width:66%;
-     
-     
-     }
-     
-     #threep {
-         color: aliceblue;
-         font-size: 0.01rem;
-         margin: 0 auto;
-         padding-top: 5px;
-         padding-bottom: 2px;
-         margin: 0 auto;
-         width:66%;
-     
-     }
-     
-     
-     .findiv{
-        
-         position: relative;
-         top:320px;
-         margin: 0 auto;
-     }
-     #gatee{
-         position: relative;
-         margin: 0 auto;
-         width: 35%;
-         float: right;
-     
-     }
-     
-     .lastcontainer1{
-         width: 75%;
-         height: 100%;
-         margin: 0 auto;
-         
-        
-     }
-     .lastcontainer2{
-         width: 90%;
-         height: 100%;
-         margin: 0 auto;
-         background-color: rgba(248, 248, 248, 0.521);
-     }
-     .gln{
-         width: 66%;
-       
-     }
-     
-     .fin{
-         position: relative;
-         top:55px;
-         background-image: url("assets/img/TransparentArrowBkgd.jpg");
-         z-index:-1;
-         height:1500px;
-         
-         background-size:cover;
-         
-        
-     
-     }
-     .findiv2{
-         position: relative;
-         width: 66%;
-         top: 264px;
-         background-color: rgba(248, 248, 248, 0.541);
-     
-     
-         margin: 0 auto;
-     }
-     
-     .arrow{
-         position: relative;
-         top:248px;
-         margin: 0 auto;
-         width: 100%;
-         left: 68px;
-         opacity: 0.5;
-     
-     
-     }
-     .buttonfin{
-     position: relative;
-     top: 300px;
-     border-style: solid;
-       border-color: red;
-     
-     }
-     .btn-warning{
-         color: white;
-         position: relative;
-         margin: 0 auto;
-         left: 100px;
-         border-style: solid;
-       border-color: rgb(255, 255, 255);
-     
-     
-      
-         margin-right:10px;
-         width: 44%;
-         height: 55px;
-     }
-     
-     .btn span{
-         width:20%;
-         font-size: 0.06rem;
-     }
-     
-     .grenlab{
-         color: green;
-         text-decoration-line: underline;
-         width:45%;
-         font-size: 0.5rem;
-         text-align: center;
-         margin:  auto;
-     }
-     
-
-
-
-}
-   
-@media all and (min-width: 1240px) {
-
-
-    body{
-        background-color:rgb(59, 28, 2) ;
-        z-index: -3;
-       
-        
-    }
-
-    .innerbg{
-        position: relative;
-        background-color:white ;
-        z-index: -2;
-        margin: 0 auto;
-        width: 45%;
-  
-   } 
-     
-     
-        .ban1{
-        background-image: url("assets/img/HeadlineImage_1.jpg");
-        position: absolute;
-        background-size: cover;
-        background-repeat: no-repeat;
-        width: 100%;
-        height: 200x;
-        left:0px;
-        top: 0px;
-        
-        }
-     
-        h1{
-         font-size: 1.1rem;
-         font-family: bold;
-         color: aliceblue;
-         text-align: center;
-         padding-top: 12px;
-     
-     
-        }
-     
-        #redh1{
-            color: red;
-            text-align: center;
-            max-width: 100%;
-            font-size: 1.8rem;
-            font-family: bold;
-            background-color: rgba(255, 255, 255, 0.685);
-            border-radius: 3px;
-        }
-
-      .p1  {
-          position: relative;
-          padding-top: 10px;
-
-        }
-     
-        #p2{
-            color: aliceblue;
-            font-size: 0.9rem;
-            max-width: 95%;
-           text-align:  center;
-           padding-left:12px; 
-     
-           }
-     
-           h2{
-               position: relative;
-               top: 220px;
-               font-size: 0.02rem;
-               max-width: 90%;
-               padding-left: 25px;
-           }
-     
-           .desserts{
-               position: relative;
-               background: rgb(131,61,16);
-     background: linear-gradient(90deg, rgba(131,61,16,0.4472163865546218) 0%, rgba(214,134,44,0.9710259103641457) 45%, rgba(204,174,26,0.23993347338935578) 100%);
-             top: 220px;
-             height: 260px;
-             
-           }
-     
-     
-         ul{
-             position: relative;
-             top: -10px;
-             left: 40px;
-             height: 150px;
-             max-width: 100%;
-             list-style-type: none;
-             padding:0;
-            
-     
-         }
-
-         .tag{
-             font-size: 1.9rem;
-         }
-           
-        
-        .tasty{
-            width: 23%;
-            left :20px;
-            margin: 15px;
-            float: left;
-     
-            
-            
-            
-        }
-        .pictags{
-            
-         position: relative;
-         top: -30px;
-         left: 20px;
-         font-size: 0.8rem;
-         height: 150px;
-         max-width: 100%;
-         list-style-type: none;
-        padding-top: 5px;
-        
-     
-        }
-     
-        #tag{
-           font-family: bold;
-         color: rgb(65, 26, 1);
-         width: 25%;
-         margin: 15px;
-         float: left;
-        }
-     
-        #p1{
-            
-            color: rgb(0, 0, 0);
-            position: relative;
-            top: 180px;
-            max-width: 80%;
-            height: 20px;
-            font-family: bold;
-            font-size: 0.75rem;
-            left: 20px;
-            text-align: left;
-            margin: 0;
-            
-            
-        }
-        #p23{
-            
-         color: rgb(0, 0, 0);
-         position: relative;
-         top: 250px;
-         text-align: left;
-         max-width: 80% ;
-         height: 20px;
-         font-family: bold;
-         font-size: 0.75rem;
-         left: 25px;
-         margin: 0;
-        }
-     
-     
-        p span{
-            padding-top: 15px;
-            display: block;
-        }
-        
-        #enz{
-            position: relative;
-            top: 340px;
-            color: rgb(1, 2, 2);
-            font-size: 0.1rem;
-            margin: 15px;
-            left: 25px;
-        }
-        #enz li:before {
-         content: '✓';
-       }
-       #p4{
-         color: rgb(0, 0, 0);
-         position: relative;
-         top: 240px;
-         text-align: left;
-         max-width: 80% ;
-         height: 20px;
-         font-family: bold;
-         font-size: 0.75rem;
-         left: 25px;
-         margin: 0;
-       }
-     
-     
-       .paralax{
-           position: relative;
-           top: 255px;
-           background-image: url("assets/img/ParallaxOne_5.jpg");
-           background-size:cover;
-           height: 180px;
-           
-       }
-       h3{
-           position: relative;
-           font-family: bold;
-           color: white;
-           font-size: 1.2rem;
-           text-align: left;
-           padding-left: 8px;
-           top: 30px;
-     
-       }
-       h3 span{
-           font-family: sans-serif;
-         padding-top: 10px;
-         display: block;
-         font-size: 0.07rem;
-     }
-     .bar {
-         position: relative;
-         background-color: #3d1c0f;
-         top: 280px;
-         padding-right: 60px;
-         width: 90%;
-         height: 180px;
-     }
-     h4{
-         color: rgb(255, 255, 255);
-         padding-top: 5px;
-         font-size: 0.9rem;
-         padding-left: 10px;
-         width:70%;
-         float: right;
-         
-         
-     
-     }
-     h4 span{
-         padding-top: 10px;
-         display: block;
-     
-     }
-     
-     #docimg {
-        top: 200px;
-         width: 25%;
-         
-         padding: 0px;
-     }
-     .skep{
-         position: relative;
-         top: 300px;
-     
-     }
-     
-     #br{
-         text-align: left;
-         font-size: 0.3rem;
-         margin: 0 auto;
-         width: 75%;
-         padding-bottom: 5px;
-     
-     }
-     
-     #rd{
-         text-align: left;
-         font-size: 0.3rem;
-         margin: 0 auto;
-         width: 75%;
-         padding-bottom: 5px;
-     
-     }
-     
-     .gears{
-         background-image: url("assets/img/Gears_15.jpg");
-         position: relative;
-         top: 310px;
-         height: 230px;
-         background-size:cover;
-     
-     
-     }
-     
-     #yell{
-         padding-top: 8px;
-         text-align: left;
-         color: yellow;
-         margin: 0 auto;
-         font-size: 0.5rem;
-         width:66%;
-     
-     
-     }
-     
-     
-     
-     #yell span {
-         color: aliceblue;
-         font-size: 0.1rem;
-         margin: 0 auto;
-         padding-top: 5px;
-         padding-bottom: 2px;
-     }
-     
-     #secp{
-         color: aliceblue;
-         font-size: 0.1rem;
-         margin: 0 auto;
-         padding-top: 5px;
-         padding-bottom: 2px;
-         margin: 0 auto;
-         width:66%;
-     
-     
-     }
-     
-     #threep {
-         color: aliceblue;
-         font-size: 0.01rem;
-         margin: 0 auto;
-         padding-top: 5px;
-         padding-bottom: 2px;
-         margin: 0 auto;
-         width:66%;
-     
-     }
-     
-     
-     .findiv{
-        
-         position: relative;
-         top:320px;
-         margin: 0 auto;
-     }
-     #gatee{
-         position: relative;
-         margin: 0 auto;
-         width: 35%;
-         
-
-         float: right;
-     
-     }
-
-     .gatee2{
-        position: relative;
-        margin: 0 auto;
-        width: 20%;
-
-
-     }
-     
-     .lastcontainer1{
-         width: 75%;
-         height: 100%;
-         margin: 0 auto;
-         
-        
-     }
-     .lastcontainer2{
-         width: 90%;
-         height: 100%;
-         margin: 0 auto;
-         background-color: rgba(248, 248, 248, 0.521);
-     }
-     .gln{
-         width: 66%;
-       
-     }
-     
-     .fin{
-        position: relative;
-        top:55px;
-        background-image: url("assets/img/TransparentArrowBkgd.jpg");
-        z-index:-1;
-        height:1000px;
-        
-        background-size:cover;
-        
-        
-     
-     }
-     .findiv2{
-        position: relative;
-         width: 66%;
-         top: 264px;
-         background-color: rgba(248, 248, 248, 0.541);
-     
-     
-         margin: 0 auto; 
-     }
-     
-     .arrow{
-         position: relative;
-         top:248px;
-         margin: 0 auto;
-         width: 100%;
-         left: 150px;
-         opacity: 0.5;
-     
-     
-     }
-     .buttonfin{
-     position: relative;
-     top: 300px;
+    /* border: 5px solid red; */
+    width:80%;
     
-     
-     }
-     .btn-warning{
-         color: white;
-         position: relative;
-         margin: 0 auto;
-         left: 250px;
-         border-style: solid;
-       border-color: rgb(255, 255, 255);
-     
-     
-      
-         margin-right:10px;
-         width: 44%;
-         height: 55px;
-     }
-     
-     .btn span{
-         width:20%;
-         font-size: 0.06rem;
-     }
-     
-     .grenlab{
-         color: green;
-         text-decoration-line: underline;
-         width:45%;
-         font-size: 0.5rem;
-         text-align: center;
-         margin:  auto;
-     }
-     
-
-     /*css3 animation*/
-
-
-
-
-
+    
     
 
+}
+h4 span{
+    padding-top: 30px;
+    display: block;
 
+}
 
-     
+#docimg {
+    position: relative;
+    top: 5%;
+    float: left;
+     /* visibility: hidden; */
+    height: 250px;
+    /* border: 5px solid red; */
+    
+}
 
-#pagegradient {
-    background-image:
-          -webkit-gradient(
-              radial, 
-              50% -50, 
-              300, 
-              50% 0, 
-              0, 
-              from(rgba(230, 237, 241, 0)), 
-              to(rgba(230, 237, 241, 0.8)));
-      
-    height:100%;
-    left:0px;
-    position:absolute;
-    top:0;
-    width: 600px;
-  }
-  
-  .button {
-     
-  
-      position: absolute;
-      bottom: -2680px;
-      left: 850px;
-      display: inline-block;
-      margin: 0 auto;
-      
-      -webkit-border-radius: 10px;
-      
-      webkit-box-shadow: 
-      0px 3px rgba(128,128,128,1), 
-          0px 4px rgba(118,118,118,1),
-          0px 5px rgba(108,108,108,1),
-          0px 6px rgba(98,98,98,1),
-          0px 7px rgba(88,88,88,1),
-          0px 8px rgba(78,78,78,1),
-          0px 14px 6px -1px rgba(128,128,128,1); /* shadow */
-      
-      -webkit-transition: -webkit-box-shadow .1s ease-in-out;
-  } 
-  
-  .button span {
-      background-color: rgb(129, 87, 9);
-      
-      background-image: 
-          /* gloss gradient */
-          -webkit-gradient(
-              linear, 
-              left bottom, 
-              left top, 
-              color-stop(50%,rgba(255,255,255,0)), 
-              color-stop(50%,rgba(255,255,255,0.3)), 
-              color-stop(100%,rgba(255,255,255,0.2))),
-          
-          /* dark outside gradient */
-          -webkit-gradient(
-              linear, 
-              left top, 
-              right top, 
-              color-stop(0%,rgba(210,210,210,0.3)), 
-              color-stop(20%,rgba(210,210,210,0)), 
-              color-stop(80%,rgba(210,210,210,0)), 
-              color-stop(100%,rgba(210,210,210,0.3))),
-          
-          /* light inner gradient */
-          -webkit-gradient(
-              linear, 
-              left top, 
-              right top, 
-              color-stop(0%,rgba(255,255,255,0)), 
-              color-stop(20%,rgba(255,255,255,0.5)), 
-              color-stop(80%,rgba(255,255,255,0.5)), 
-              color-stop(100%,rgba(255,255,255,0))),        
-          
-          /* diagonal line pattern */
-          -webkit-gradient(
-              linear, 
-              0% 100%, 
-              100% 0%, 
-              color-stop(0%,rgba(255,255,255,0)), 
-              color-stop(40%,rgba(255,255,255,0)), 
-              color-stop(40%,#D2D2D1), 
-              color-stop(60%,#D2D2D1), 
-              color-stop(60%,rgba(255,255,255,0)), 
-              color-stop(100%,rgba(255,255,255,0)));
-      
-          -webkit-box-shadow:
-              0px -1px #fff, /* top highlight */
-              0px 1px 1px #FFFFFF; /* bottom edge */
-      
-      -webkit-background-size: 100%, 100%, 100%, 4px 4px;
-      
-      -webkit-border-radius: 10px;
-      -webkit-transition: -webkit-transform .1s ease-in-out;
-      
-      display: inline-block;
-      padding: 10px 40px 10px 40px;
-      
-      color: #3A474D;
-      text-transform: uppercase;
-      font-family: 'TradeGothicLTStd-BdCn20','PT Sans Narrow';
-      font-weight: 700;
-      font-size: 32px;
-      
-      text-shadow: 0px 1px #fff, 0px -1px #262F33;
-  }
-  
-          .button span:hover {
-              color: #AEBF3B;
-              text-shadow: 0px -1px #97A63A;
-              cursor: pointer;
-          }
-  
-          .button:active {
-              -webkit-box-shadow: 
-                  0px 3px rgba(128,128,128,1),
-                  0px 4px rgba(118,118,118,1),
-                  0px 5px rgba(108,108,108,1),
-                  0px 6px rgba(98,98,98,1),
-                  0px 7px rgba(88,88,88,1),
-                  0px 8px rgba(78,78,78,1),
-                  0px 10px 2px 0px rgba(128,128,128,.6); /* shadow */
-          }
-  
-          .button:active span{
-              -webkit-transform: translate(0, 5px); /* depth of button press */
-          }
-  
-      .button span:after {
-         
-          display: block;
-          width: 10px;
-          height: 10px;
-          border-style: none;
-          border-color: none;
-      
-      
-          position: absolute;
-          right: 14px;
-          top: 12px;    
-          
-          font-family: 'Cabin';
-          font-weight: 700;
-          color: #AEBF3B;
-          text-shadow: 0px 1px #fff, 0px -1px #97A63A;
-          font-size: 26px;
-      }
+/* } */
+.skep{
+    position: relative;
+    top: 440px;
 
+}
 
+#br{
+    text-align: left;
+    font-size: 0.8rem;
+    margin: 0 auto;
+    width: 75%;
+    padding-bottom: 5px;
+
+}
+
+#rd{
+    text-align: left;
+    font-size: 0.8rem;
+    margin: 0 auto;
+    width: 75%;
+    padding-bottom: 5px;
+
+}
 
 
 }
