@@ -356,6 +356,7 @@ h4 span{
 }
 .lastdivimg{
     background-image: -moz-linear-gradient(top, rgb(255, 255, 255) 0%, rgba(246, 246, 246, 0.822) 86%, rgba(237, 237, 237, 0.185) 100%),url("assets/img/TransparentArrowBkgd.jpg");
+    background-image:linear-gradient(to bottom, rgb(255, 255, 255) 0%, rgba(246, 246, 246, 0.822) 86%, rgba(237, 237, 237, 0.185) 100%),url("assets/img/TransparentArrowBkgd.jpg");
     background-size: cover;
     height: 2400px;
     background-repeat: no-repeat;
@@ -851,6 +852,7 @@ h4 span{
 }
 .lastdivimg{
     background-image: -moz-linear-gradient(top, rgb(255, 255, 255) 0%, rgba(247, 241, 241, 0.938) 86%, rgba(228, 226, 226, 0.096) 100%),url("assets/img/TransparentArrowBkgd.jpg");
+    background-image:linear-gradient(to bottom, rgb(255, 255, 255) 0%, rgba(246, 246, 246, 0.822) 86%, rgba(237, 237, 237, 0.185) 100%),url("assets/img/TransparentArrowBkgd.jpg");
     background-size: cover;
     height: 3200px;
     background-repeat: no-repeat;
@@ -1294,6 +1296,7 @@ border-color: rgb(230, 222, 222);
             }
             .lastdivimg{
                 background-image: -moz-linear-gradient(top, rgb(255, 255, 255) 0%, rgba(247, 241, 241, 0.938) 86%, rgba(228, 226, 226, 0.096) 100%),url("assets/img/TransparentArrowBkgd.jpg");
+                background-image:linear-gradient(to bottom, rgb(255, 255, 255) 0%, rgba(246, 246, 246, 0.822) 86%, rgba(237, 237, 237, 0.185) 100%),url("assets/img/TransparentArrowBkgd.jpg");
                 background-size: cover;
                 height: 3200px;
                 background-repeat: no-repeat;
@@ -1739,6 +1742,7 @@ border-color: rgb(230, 222, 222);
             }
             .lastdivimg{
                 background-image: -moz-linear-gradient(top, rgb(255, 255, 255) 0%, rgba(247, 241, 241, 0.938) 86%, rgba(228, 226, 226, 0.096) 100%),url("assets/img/TransparentArrowBkgd.jpg");
+                background-image:linear-gradient(to bottom, rgb(255, 255, 255) 0%, rgba(246, 246, 246, 0.822) 86%, rgba(237, 237, 237, 0.185) 100%),url("assets/img/TransparentArrowBkgd.jpg");
                 background-size: cover;
                 height: 3200px;
                 background-repeat: no-repeat;
@@ -2162,6 +2166,7 @@ h4 span{
 }
 .lastdivimg{
     background-image: -moz-linear-gradient(top, rgb(255, 255, 255) 0%, rgba(247, 241, 241, 0.938) 86%, rgba(228, 226, 226, 0.096) 100%),url("assets/img/TransparentArrowBkgd.jpg");
+    background-image:linear-gradient(to bottom, rgb(255, 255, 255) 0%, rgba(246, 246, 246, 0.822) 86%, rgba(237, 237, 237, 0.185) 100%),url("assets/img/TransparentArrowBkgd.jpg");
     background-size: cover;
     height: 3200px;
     background-repeat: no-repeat;
